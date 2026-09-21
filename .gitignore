@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dev-dist/
+coverage/
+*.log
+.DS_Store
+.vite/
+
+# CNS source PDFs are public documents; they are downloaded on demand
+# (see README) and only the extracted JSON is versioned.
+*.pdf
+
+# Local tooling
+.claude/
